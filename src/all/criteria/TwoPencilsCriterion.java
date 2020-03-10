@@ -1,6 +1,9 @@
 package all.criteria;
 
+import java.util.Arrays;
+
 import static java.lang.Math.ceil;
+import static java.lang.Math.pow;
 
 public class TwoPencilsCriterion implements ICriterion {
 
@@ -16,6 +19,16 @@ public class TwoPencilsCriterion implements ICriterion {
                 } else if (multP2 == 0) multP2 = i + 2;
             }
         }
-        return ((multP1 - 1) * (multP2 - 1) + ceil((amountOfStraights + 1 - multP1 - multP2) / (double) (multP2 - 1)) + 2 <= pointsAmount);
+
+        //1. OLD A
+        /*+ ceil((amountOfStraights + 1 - multP1 - multP2) / (double) (multP2 - 1))*/
+        //2. OLD A
+        /*int pieceOfA = amountOfStraights - multP1 * (multP2 - 1);
+        double a = ceil((pow(pieceOfA, 2) - pieceOfA) / (double) (multP2 * (multP2 - 1)));
+        if ((multP1 - 1) * (multP2 - 1) + a + 2 > pointsAmount && (multP1 - 1) * (multP2 - 1) + 2 <= pointsAmount) {
+            System.out.println(Arrays.toString(coefficients) + "\ta= " + a);
+        }*/
+
+        return ((multP1 - 1) * (multP2 - 1) + 2 <= pointsAmount);
     }
 }
