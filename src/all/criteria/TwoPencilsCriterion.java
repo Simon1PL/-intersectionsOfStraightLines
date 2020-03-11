@@ -31,8 +31,8 @@ public class TwoPencilsCriterion implements ICriterion {
 
         //SPRAWDZANIE CZY A DUZO ZMIENIA
         //if((multP1 - 1) * (multP2 - 1) + 2 - pointsAmount <1 && (multP1 - 1) * (multP2 - 1) + 2 - pointsAmount > -2)
-        if ((multP1 - 1) * (multP2 - 1) + 2 <= pointsAmount)
-            System.out.println(Arrays.toString(coefficients) + "\nlewa= " + ((multP1 - 1) * (multP2 - 1) + 2) + "\tprawa= " + pointsAmount+"\troznica= "+ (pointsAmount-(multP1 - 1) * (multP2 - 1) - 2));
+       /* if ((multP1 - 1) * (multP2 - 1) + 2 <= pointsAmount)
+            System.out.println(Arrays.toString(coefficients) + "\nlewa= " + ((multP1 - 1) * (multP2 - 1) + 2) + "\tprawa= " + pointsAmount + "\troznica= " + (pointsAmount - (multP1 - 1) * (multP2 - 1) - 2));*/
 
         return ((multP1 - 1) * (multP2 - 1) + 2 <= pointsAmount);
     }
