@@ -29,6 +29,10 @@ public class TwoPencilsCriterion implements ICriterion {
             System.out.println(Arrays.toString(coefficients) + "\ta= " + a);
         }*/
 
+        //SPRAWDZANIE CZY A DUZO ZMIENIA
+        /*if((multP1 - 1) * (multP2 - 1) + 2 - pointsAmount <1 && (multP1 - 1) * (multP2 - 1) + 2 - pointsAmount > -2)
+            System.out.println(Arrays.toString(coefficients) + "\nlewa= " + ((multP1 - 1) * (multP2 - 1) + 2) + "\tprawa= " + pointsAmount);*/
+
         return ((multP1 - 1) * (multP2 - 1) + 2 <= pointsAmount);
     }
 }
