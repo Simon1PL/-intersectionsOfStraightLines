@@ -35,5 +35,6 @@ public class TwoPencilsCriterion implements ICriterion {
             System.out.println(Arrays.toString(coefficients) + "\nlewa= " + ((multP1 - 1) * (multP2 - 1) + 2) + "\tprawa= " + pointsAmount + "\troznica= " + (pointsAmount - (multP1 - 1) * (multP2 - 1) - 2));*/
 
         return ((multP1 - 1) * (multP2 - 1) + 2 <= pointsAmount);
+        //stare: return ((multP1 - 1) * (multP2 - 1) + ceil((amountOfStraights + 1 - multP1 - multP2) / (double) (multP2 - 1)) + 2 <= pointsAmount);
     }
 }
