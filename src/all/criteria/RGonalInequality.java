@@ -31,7 +31,7 @@ public class RGonalInequality implements ICriterion {
         return true;
     }
 
-    /*private int left(int r, ArrayList<Integer> multP) {
+   /* private int left(int r, ArrayList<Integer> multP) {
         int result = 0;
         for (int i = 0; i < r; i++) result += multP.get(i);
         return result;

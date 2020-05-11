@@ -12,15 +12,15 @@ public class Main {
         //Kryteria dla ciał zespolonych: PokoraInequality
         //Kryteria dla ciał rzeczywistych: GeneralizedMelchiorInequality, MelchiorInequality
         //Kryteria dla ciał skończonych(z najniższą stałą harborna?): CriteriumForFiniteField
-        //nwm czy cokolwiek łapią: RectangleInequalityWhatIsIt
-        ICriterion[] criteriaPassed = {/*new GeneralizedMelchiorInequality(), new MelchiorInequality(),new PokoraInequality(),*/ new CriteriumForFiniteField(), new TwoPencilsCriterion(), new RGonalInequality(), new BasicMatricalTracesInequality(), new EvennessCriterion(), new RectangleInequality(), new WhatIsIt()};
+        //nwm czy cokolwiek łapią: RectangleInequality, WhatIsIt
+        ICriterion[] criteriaPassed = {/*new GeneralizedMelchiorInequality(), new CriteriumForFiniteField(),*/ new MelchiorInequality(), new PokoraInequality(), new TwoPencilsCriterion(), new RGonalInequality(), new BasicMatricalTracesInequality(), new EvennessCriterion(), new RectangleInequality(), new WhatIsIt()};
 
         ICriterion[] criteriaNotPassed = {/*new WhatIsIt()*/};
 
         //How to chceck one sample:
         //int[] coefficients={1, 0, 0, 1, 3, 39, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
         //System.out.println(new CriteriumForFiniteField().hasPassed(coefficients, 43));
-        for (int j = 7; j <= 7; j++) {
+        for (int j =30; j <= 30; j++) {
 
             int amountOfStraights = j;
             boolean print = false;
