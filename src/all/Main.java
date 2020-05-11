@@ -11,11 +11,16 @@ public class Main {
         //Kryteria chyba slabsze od pozostalych czyli nic nie lapiace: BasicMatricalTracesInequality
         //Kryteria dla ciał zespolonych: PokoraInequality
         //Kryteria dla ciał rzeczywistych: GeneralizedMelchiorInequality, MelchiorInequality
-        ICriterion[] criteriaPassed = {/*new GeneralizedMelchiorInequality(), new MelchiorInequality(), new PokoraInequality(),*/ new RGonalInequality(), new TwoPencilsCriterion(), new BasicMatricalTracesInequality(), new EvennessCriterion(), new RectangleInequality(), new WhatIsIt(), new CriteriumForFiniteField()};
+        //Kryteria dla ciał skończonych(z najniższą stałą harborna?): CriteriumForFiniteField
+        //nwm czy cokolwiek łapią: RectangleInequalityWhatIsIt
+        ICriterion[] criteriaPassed = {/*new GeneralizedMelchiorInequality(), new MelchiorInequality(),new PokoraInequality(),*/ new CriteriumForFiniteField(), new TwoPencilsCriterion(), new RGonalInequality(), new BasicMatricalTracesInequality(), new EvennessCriterion(), new RectangleInequality(), new WhatIsIt()};
 
         ICriterion[] criteriaNotPassed = {/*new WhatIsIt()*/};
 
-        for (int j = 43; j <= 43; j++) {
+        //How to chceck one sample:
+        //int[] coefficients={1, 0, 0, 1, 3, 39, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+        //System.out.println(new CriteriumForFiniteField().hasPassed(coefficients, 43));
+        for (int j = 7; j <= 7; j++) {
 
             int amountOfStraights = j;
             boolean print = false;
@@ -28,7 +33,7 @@ public class Main {
             OptionsFinder optionsFinder = new OptionsFinder(amountOfStraights, criteriaPassed, criteriaNotPassed, print, findMinimum, fileForResultName);
             long stop = System.currentTimeMillis();
             System.out.println("Czas wykonania: " + (stop - start) / 1000.0 + "s");
-            if (findMinimum) optionsFinder.printMinimums(fileForMinimumsName, 5);
+            if (findMinimum) optionsFinder.printMinimums(fileForMinimumsName);
         }
     }
 }

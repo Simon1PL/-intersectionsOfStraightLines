@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13a9c88d-e2d8-4a78-bd5a-568ef9b524b9" name="Default Changelist" comment="dodanie sprawdzenia ile daje dodanie a">
-      <change afterPath="$PROJECT_DIR$/src/all/myCriteria/CriteriumForFiniteField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="13a9c88d-e2d8-4a78-bd5a-568ef9b524b9" name="Default Changelist" comment="nowe kryt dla cial skonczonych+zmiana find minimum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wyniki.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Wyniki.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaProgram/all/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgram/all/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaProgram/all/OptionsFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgram/all/OptionsFinder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaProgram/all/criteria/TwoPencilsCriterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaProgram/all/criteria/TwoPencilsCriterion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/all/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/all/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/all/criteria/TwoPencilsCriterion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/all/criteria/TwoPencilsCriterion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/all/MinimumFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/all/MinimumFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/all/OptionsFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/all/OptionsFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/all/myCriteria/CriteriumForFiniteField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/all/myCriteria/CriteriumForFiniteField.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,44 +66,45 @@
           <entry key="project.closed" value="6" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="775" />
-          <entry key="txt" value="49" />
+          <entry key="java" value="1987" />
+          <entry key="txt" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="775" />
-          <entry key="PLAIN_TEXT" value="49" />
+          <entry key="JAVA" value="1987" />
+          <entry key="PLAIN_TEXT" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="2" />
-          <entry key="java" value="11" />
+          <entry key="java" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="2" />
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="25" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/all/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            <state relative-caret-position="425">
+              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,11 +112,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/all/criteria/TwoPencilsCriterion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
+            <state relative-caret-position="432">
               <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/all/OptionsFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="122" selection-start-line="122" selection-end-line="122" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -123,8 +136,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/all/myCriteria/CriteriumForFiniteField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="381">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/all/MinimumFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,6 +171,9 @@
       <find>^</find>
       <find>minimum</find>
       <find>pow</find>
+      <find>findM</find>
+      <find>chec</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,14 +208,14 @@
         <option value="$PROJECT_DIR$/src/all/criteria/MinimumFinder.java" />
         <option value="$PROJECT_DIR$/src/all/Wyniki" />
         <option value="$PROJECT_DIR$/src/all/CriteriaChecker.java" />
-        <option value="$PROJECT_DIR$/src/all/MinimumFinder.java" />
         <option value="$PROJECT_DIR$/src/all/criteria/RGonalInequality.java" />
-        <option value="$PROJECT_DIR$/src/all/OptionsFinder.java" />
         <option value="$PROJECT_DIR$/src/all/criteria/TwoPencilsCriterionWithA.java" />
         <option value="$PROJECT_DIR$/src/all/criteria/TwoPencilsCriterionWithoutA.java" />
+        <option value="$PROJECT_DIR$/src/all/criteria/TwoPencilsCriterion.java" />
+        <option value="$PROJECT_DIR$/src/all/OptionsFinder.java" />
+        <option value="$PROJECT_DIR$/src/all/MinimumFinder.java" />
         <option value="$PROJECT_DIR$/src/all/myCriteria/CriteriumForFiniteField.java" />
         <option value="$PROJECT_DIR$/src/all/Main.java" />
-        <option value="$PROJECT_DIR$/src/all/criteria/TwoPencilsCriterion.java" />
       </list>
     </option>
   </component>
@@ -248,7 +279,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588980207173" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589170792843" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../IntersectionsOfStraightLines — kopia" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -314,7 +345,8 @@
       <workItem from="1584492341094" duration="5000" />
       <workItem from="1588904871971" duration="994000" />
       <workItem from="1588974537388" duration="4120000" />
-      <workItem from="1588978681816" duration="1521000" />
+      <workItem from="1588978681816" duration="5281000" />
+      <workItem from="1589114424253" duration="20221000" />
     </task>
     <task id="LOCAL-00001" summary="dodanie sprawdzenia ile daje dodanie a">
       <created>1583923923105</created>
@@ -337,17 +369,24 @@
       <option name="project" value="LOCAL" />
       <updated>1583924866393</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="nowe kryt dla cial skonczonych">
+      <created>1588980353700</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588980353700</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191713000" />
+    <option name="totallyTimeSpent" value="215694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14392324" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -356,16 +395,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.329718" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021322" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -386,7 +425,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dodanie sprawdzenia ile daje dodanie a" />
-    <option name="LAST_COMMIT_MESSAGE" value="dodanie sprawdzenia ile daje dodanie a" />
+    <MESSAGE value="nowe kryt dla cial skonczonych" />
+    <MESSAGE value="nowe kryt dla cial skonczonych+zmiana find minimum" />
+    <option name="LAST_COMMIT_MESSAGE" value="nowe kryt dla cial skonczonych+zmiana find minimum" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Przechwytywanie.PNG" />
@@ -425,33 +466,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/all/criteria/RGonalInequality.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/all/criteria/TwoPencilsCriterionWithA.java" />
-    <entry file="file://$PROJECT_DIR$/src/all/OptionsFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="961">
-          <caret line="116" column="46" lean-forward="true" selection-start-line="116" selection-start-column="46" selection-end-line="116" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JavaProgram.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/all/MinimumFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/all/myCriteria/BasicMatricalTracesInequality.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -483,22 +500,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/all/CriteriaChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/all/myCriteria/CriteriumForFiniteField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/all/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/all/criteria/RGonalInequality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/all/OptionsFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="122" selection-start-line="122" selection-end-line="122" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -507,8 +524,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/all/criteria/TwoPencilsCriterion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
+        <state relative-caret-position="432">
           <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/all/MinimumFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="77" column="48" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/all/myCriteria/CriteriumForFiniteField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/all/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

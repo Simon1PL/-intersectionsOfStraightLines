@@ -119,8 +119,8 @@ public class OptionsFinder {
         }
     }
 
-    void printMinimums(String fileName, int howManyResults) throws IOException {
-        minimumFinder.printMinimums(fileName, howManyResults);
+    void printMinimums(String fileName) throws IOException {
+        minimumFinder.printMinimums(fileName);
     }
 
     private long findOptions(int sum, int indexInCoefficientsTable) throws IOException {
