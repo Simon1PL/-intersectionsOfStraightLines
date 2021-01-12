@@ -28,6 +28,12 @@ public class CriteriumForFiniteField implements ICriterion {
 
         int pointsToDestroy = nextPerfectFieldPointsAmount - pointsAmount;
         if(pointsToDestroy<0) return false;
+        //1. straightsAmountToDestroyPoint < pointsToDestroy:
+        //straightsAmountToDestroyPoint + (straightsAmountToDestroyPoint-1) + ... + 1 = (straightsAmountToDestroyPoint+1)/2*straightsAmountToDestroyPoint
+        //2. straightsAmountToDestroyPoint >= pointsToDestroy:
+        //straightsAmountToDestroyPoint + (straightsAmountToDestroyPoint-1) + ... + (straightsAmountToDestroyPoint-pointsToDestroy+1) =
+        //(straightsAmountToDestroyPoint+(straightsAmountToDestroyPoint-pointsToDestroy+1))/2*pointsToDestroy
+        //1 & 2 =>
         int straightsToDestroy = (straightsAmountToDestroyPoint + max(1, straightsAmountToDestroyPoint-pointsToDestroy+1)) * min(pointsToDestroy, straightsAmountToDestroyPoint)/2;
         if(nextPerfectFieldPointsAmount-straightsToDestroy<amountOfStraights) return false;
         //if(pointsToDestroy>straightsAmountToDestroyPoint)
